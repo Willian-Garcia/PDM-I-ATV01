@@ -10,7 +10,7 @@ interface BallProps {
 
 const Ball: React.FC<BallProps> = ({ number, backgroundColor, textColor }) => {
   return (
-    <View style={[styles.circle, { backgroundColor }]}>
+    <View style={[styles.ball, { backgroundColor }]}>
       <Text style={[styles.text, { color: textColor }]}>{number}</Text>
     </View>
   );
