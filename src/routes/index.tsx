@@ -9,7 +9,6 @@ import { RootStackParamList } from "../types/rootStack";
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-// Configuração do Drawer Navigator
 const LotteryDrawer = () => (
   <Drawer.Navigator initialRouteName="Mega-sena">
     <Drawer.Screen name="Mega-sena" component={MegaSenaScreen} />
@@ -18,7 +17,6 @@ const LotteryDrawer = () => (
   </Drawer.Navigator>
 );
 
-// Configuração do Stack Navigator principal
 const Routes = () => {
   return (
     <LotteryProvider>

@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import homeTheme from "../../themes/hometheme";
 
 const styles = StyleSheet.create({
     container: {
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
     Button:{
       width:150,
       height:40,
-      backgroundColor:"#007FFF",
+      backgroundColor:homeTheme.colors.background,
       justifyContent: 'center',
       alignItems: 'center',
       borderRadius:15
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
     ButtonText:{
       fontSize: 18,
       fontWeight: 'bold',
-      color:"#ffffff",
+      color:homeTheme.colors.text,
       textAlign:"center"
     },
   });

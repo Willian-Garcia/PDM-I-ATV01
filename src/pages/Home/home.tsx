@@ -5,7 +5,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../../types/rootStack";
 
-
 interface Props extends NativeStackScreenProps<RootStackParamList, "Home"> {}
 
 const HomeScreen: React.FC<Props> = ({navigation}) => {
